@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Move.js">
+    <Files>
+      <File FileName="Assets\Scripts\HeartIndicator.js" Line="39" Column="28" />
+      <File FileName="Assets\UIinGame.js" Line="41" Column="3" />
+      <File FileName="Assets\Scripts\Move.js" Line="15" Column="37" />
+      <File FileName="Assets\Scripts\gui.js" Line="29" Column="2" />
+      <File FileName="Assets\Scripts\endOfLevel.js" Line="18" Column="2" />
+      <File FileName="Assets\UImainMenu.js" Line="21" Column="3" />
+      <File FileName="Assets\Scripts\worldMap.js" Line="20" Column="32" />
+      <File FileName="Assets\Scripts\RotatePlane.js" Line="25" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

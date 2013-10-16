@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Move.js">
+    <Files>
+      <File FileName="Assets\Scripts\Move.js" Line="288" Column="3" />
+      <File FileName="Assets\random_assets\alpha.shader" Line="15" Column="1" />
+      <File FileName="Assets\Scripts\gui.js" Line="50" Column="36" />
+      <File FileName="Assets\Scripts\CameraController.js" Line="19" Column="3" />
+      <File FileName="Assets\random_assets\fader.js" Line="12" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

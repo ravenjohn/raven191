@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\boulderTrigger.js">
+    <Files>
+      <File FileName="Assets\Scripts\gate2script.js" Line="27" Column="28" />
+      <File FileName="Assets\Scripts\gate1s.js" Line="28" Column="37" />
+      <File FileName="Assets\Scripts\gate2s.js" Line="26" Column="4" />
+      <File FileName="Assets\Scripts\tooltip.js" Line="32" Column="1" />
+      <File FileName="Assets\Scripts\gate1script.js" Line="43" Column="2" />
+      <File FileName="Assets\Scripts\enemyFlying.js" Line="22" Column="49" />
+      <File FileName="Assets\Scripts\HeartIndicator.js" Line="41" Column="15" />
+      <File FileName="Assets\Scripts\Move.js" Line="304" Column="29" />
+      <File FileName="Assets\Scripts\worldMap.js" Line="26" Column="23" />
+      <File FileName="Assets\plugins\GameManager.cs" Line="39" Column="6" />
+      <File FileName="Assets\random_assets\fadeAtCollide.js" Line="25" Column="1" />
+      <File FileName="Assets\Scripts\heartOwner.js" Line="13" Column="1" />
+      <File FileName="Assets\Scripts\CameraController.js" Line="24" Column="2" />
+      <File FileName="Assets\Scripts\boulderTrigger.js" Line="15" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

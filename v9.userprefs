@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Move.js">
+    <Files>
+      <File FileName="Assets\Scripts\Move.js" Line="218" Column="20" />
+      <File FileName="Assets\Scripts\HeartIndicator.js" Line="6" Column="21" />
+      <File FileName="Assets\UIinGame.js" Line="5" Column="21" />
+      <File FileName="Assets\Scripts\CameraController.js" Line="9" Column="24" />
+      <File FileName="Assets\Scripts\gui.js" Line="30" Column="55" />
+      <File FileName="Assets\Scripts\trampoline.js" Line="21" Column="51" />
+      <File FileName="Assets\Scripts\cloud.js" Line="26" Column="23" />
+      <File FileName="Assets\Scripts\enemyFlying.js" Line="19" Column="20" />
+      <File FileName="Assets\Scripts\boulder.js" Line="17" Column="3" />
+      <File FileName="Assets\Scripts\boulderTrigger.js" Line="22" Column="2" />
+      <File FileName="Assets\Scripts\roam.js" Line="24" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Glom\Desktop\cmsc 191\Raven projects\v9\Assets\Scripts\Move.js" line="210" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
