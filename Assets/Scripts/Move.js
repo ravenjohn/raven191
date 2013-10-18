@@ -37,6 +37,9 @@ var global : GameManager;
 function Start(){
 	distToGround = collider.bounds.extents.y;
 	global = gameObject.GetComponent(GameManager);
+	if(RavenCache.username){
+		global.username = RavenCache.username;
+	}
 	global.Load();
 	fixPositionAndObstacles();
 }
@@ -294,23 +297,29 @@ function Update () {
 	
 
 	
-	if(Input.GetButton("Forward") && main_camera.transform.localPosition.z >= -8){
+	if(Input.GetButton("Forward")){
 		if(!IsLadder() && rigidbody.velocity.x < speed){
 			targetRotationy = 90;
-			rigidbody.velocity.x = speed;
 			loop_this_clip(walk_sound);
-			if(ground)
+			if(ground){
+				rigidbody.velocity.x = speed;
 				animState = "run";
+			}else{
+				rigidbody.velocity.x += speed * 0.1;
+			}
 		}
 	}
 	
-	if(Input.GetButton("Backward") && main_camera.transform.localPosition.z >= -8){
+	if(Input.GetButton("Backward")){
 		if(!IsLadder() && rigidbody.velocity.x > -speed){
 			targetRotationy = 270;
-			rigidbody.velocity.x = -speed;
 			loop_this_clip(walk_sound);
-			if(ground)
+			if(ground){
+				rigidbody.velocity.x = -speed;
 				animState = "run";
+			}else{
+				rigidbody.velocity.x -= speed * 0.1;
+			}
 		}
 	}
 	
@@ -415,6 +424,10 @@ function Update () {
 		//Debug.Log("zooming in");
 	}else if(cam_state == "zoom_in"){
 		cam_state = "idle";
+	}
+	
+	if(Input.anyKey && cam_state == "idle"){
+		cam_state = "zoom_in";
 	}
 	
 	if(animState != "idle")

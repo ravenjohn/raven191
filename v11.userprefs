@@ -1,14 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Move.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\gate1script.js">
     <Files>
-      <File FileName="Assets\Scripts\Move.js" Line="40" Column="16" />
+      <File FileName="Assets\Scripts\gate1script.js" Line="42" Column="3" />
+      <File FileName="Assets\Scripts\Move.js" Line="428" Column="3" />
       <File FileName="Assets\Scripts\gui.js" Line="123" Column="35" />
       <File FileName="Assets\Scripts\main_menu_raven.js" Line="36" Column="26" />
       <File FileName="Assets\plugins\GameManager.cs" Line="132" Column="20" />
       <File FileName="Assets\Scripts\worldMap.js" Line="23" Column="54" />
       <File FileName="Assets\Scripts\heartOwner.js" Line="17" Column="15" />
-      <File FileName="Assets\Scripts\gate1script.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\gate2script.js" Line="30" Column="3" />
       <File FileName="Assets\Scripts\gate2s.js" Line="38" Column="23" />
       <File FileName="Assets\Scripts\strong.js" Line="16" Column="22" />

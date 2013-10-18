@@ -15,4 +15,5 @@ public static class RavenCache{
 	public var y : float;
 	public var level = 0;
 	public var checkpoint = "";
+	public var username = "save";
 }

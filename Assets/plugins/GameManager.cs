@@ -18,7 +18,7 @@ public class SaveGameManager : ISerializable
 	public bool canZoom = false;
 	public int deaths;
 	public bool paused;
-	public string username = "Raven";
+	public string username = "save";
 	public float timer;
 	
  
@@ -139,7 +139,7 @@ public class GameManager : MonoBehaviour
 	}
 	
 	public void Save(){
-		SaveLoad.Save("save.raven", this);
+		SaveLoad.Save("save/" + this.username + ".raven", this);
 	}
 	
 	public int getlevel(){
@@ -147,7 +147,7 @@ public class GameManager : MonoBehaviour
 	}
 	
 	public void Load(){
-		SaveLoad.Load("save.raven", this);
+		SaveLoad.Load("save/" + this.username + ".raven", this);
 		if(this.canDash){
 			Destroy(GameObject.Find("Cheetah"));
 			Destroy(GameObject.Find("d4"));
